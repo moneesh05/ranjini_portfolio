@@ -1,30 +1,26 @@
 import { Card } from "@/components/ui/card"
 
 const activities = [
-  {
-    title: "President - IRIS Club",
-    organization: "Agni College of Technology",
-    period: "2023-2024",
-    description: "Led the club with focus on student development and technical initiatives",
-  },
-  {
+    {
     title: "Secretary - Inter-College Cultural Fest",
     organization: "Agniverse 2024 & 2025",
     period: "2024-2025",
     description: "Organized and coordinated inter-college cultural events",
   },
   {
+    title: "President - IRIS Club",
+    organization: "Agni College of Technology",
+    period: "2023-2024",
+    description: "Led the club with focus on student development and technical initiatives",
+  },
+
+  {
     title: "Blood Donation Head",
     organization: "Rotaract Club",
     period: "2023-2024",
     description: "Coordinated blood donation drives and community service initiatives",
   },
-  {
-    title: "Overall Coordinator",
-    organization: "Inter-College Culturals",
-    period: "2024",
-    description: "Managed logistics and coordination for inter-college cultural events",
-  },
+ 
   {
     title: "Symposium Event Coordinator",
     organization: "Code Debugging Competition",

@@ -27,17 +27,7 @@ const skillCategories = [
     title: "Soft Skills",
     skills: ["Leadership", "Communication", "Decision Making", "Teamwork", "Quick Learner"],
   },
-  {
-    title: "Certifications",
-    skills: [
-      "Prompt Engineering",
-      "Data Science (IBM)",
-      "Network Essentials (CISCO)",
-      "Microsoft Office",
-      "HTML & CSS",
-      "Java",
-    ],
-  },
+  
 ]
 
 export function SkillsSection() {

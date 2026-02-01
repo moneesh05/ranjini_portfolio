@@ -71,14 +71,15 @@ export function HeroSection() {
           className="flex justify-center md:justify-end order-1 md:order-2 fade-up"
           style={{ animationDelay: "0.2s" }}
         >
-          <div className="relative w-48 sm:w-56 md:w-64 lg:w-72 h-48 sm:h-56 md:h-64 lg:h-72 group">
+          <div className="relative w-48 sm:w-56 md:w-64 lg:w-72 group">
             {/* Subtle background glow - reduced opacity and size */}
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/10 rounded-full blur-2xl opacity-40 group-hover:opacity-60 transition-opacity duration-300"></div>
 
             {/* Profile image with blue ring border - no excessive offsets */}
-            <div className="absolute inset-0 rounded-full border-2 border-primary/20 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5 hover:border-primary/40 hover:scale-105 transition-all duration-300 group-hover:shadow-[0_0_30px_rgba(59,130,246,0.3)]">
+            <div className="relative w-48 sm:w-56 md:w-64 lg:w-72 h-48 sm:h-56 md:h-64 lg:h-72 rounded-full border-2 border-primary/20 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5 hover:border-primary/40 hover:scale-105 transition-all duration-300 group-hover:shadow-[0_0_30px_rgba(59,130,246,0.3)]">
               <Image src="/profile.jpeg" alt="Sri Ranjani K" fill className="object-cover" priority />
             </div>
+            <p className="text-center text-muted-foreground mt-2 font-bold">Tempest CTO</p>
           </div>
         </div>
       </div>

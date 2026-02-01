@@ -10,7 +10,7 @@ export function HeroSection() {
         <div className="space-y-6 md:space-y-8 order-2 md:order-1 fade-up">
           <div className="space-y-4 md:space-y-6">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-balance leading-tight text-foreground">
-              Information Technology Student & Software Test Engineer
+            Information technology & software test engineer & young entrepreneur
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl font-semibold text-balance">
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
